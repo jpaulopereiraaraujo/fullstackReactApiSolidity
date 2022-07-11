@@ -14,9 +14,9 @@ function CryptoNews() {
     </div>
         <Nav/>
 
-        <div class="columns is-mobile is-centered">
-        <div class="column is-four-fifths  is-half is-offset-3">
-            <div class="is-justify-content-center">
+        <div className="columns is-mobile is-centered">
+        <div className="column is-four-fifths  is-half is-offset-3">
+            <div className="is-justify-content-center">
             <NewsGeneral/>
         </div>
         </div>

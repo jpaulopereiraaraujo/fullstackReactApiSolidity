@@ -8,7 +8,7 @@ function NewsGeneral() {
 
     useEffect(() => {
         const loadNews = async () => {
-            const response = await axios.get("https://newsapi.org/v2/everything?q=crypto&from=2022-06-10&sortBy=publishedAt&apiKey=cab09dcd27c749179eb35a9fee2d5479");
+            const response = await axios.get("https://newsapi.org/v2/everything?q=crypto&sortBy=publishedAt&apiKey=cab09dcd27c749179eb35a9fee2d5479");
             setNews(response.data.articles);
         };
         loadNews();
