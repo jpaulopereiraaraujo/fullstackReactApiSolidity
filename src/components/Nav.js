@@ -88,7 +88,7 @@ function Nav() {
                   Faucet 2 para mais Eths
                 </a>
 
-                <a class="navbar-item" href="https://etherscan.io/address/0xACC74631B7d28E248aeef69f0a4c564dea63DDA5" target="_blank" rel="noreferrer">
+                <a class="navbar-item" href="https://ropsten.etherscan.io/address/0xACC74631B7d28E248aeef69f0a4c564dea63DDA5" target="_blank" rel="noreferrer">
                   Contrato- VendingMachine - Ropsten
                 </a>
 

@@ -19,7 +19,7 @@ function Home() {
         <img class="is-rounded" src={imgJP} alt="Foto"></img>
     </figure>
     <div class="box my-6">
-   Olá me chamo João Paulo  sou Dev. Solidity Jr. e atualmente em busca de uma vaga de desenvolvedor, neste endereço você encontrará alguns projetos meus, também no meu link do github possuo alguns projetos, se você quiser conferir basta acessar logo no topo desta página, obrigado pela visita  :)
+   Olá me chamo João Paulo  sou Dev. Solidity Jr. e atualmente em busca de uma vaga de desenvolvedor, neste endereço você encontrará alguns projetos meus, também no meu link do github possuo alguns projetos, se você quiser conferir basta acessar o link no topo desta página, obrigado pela visita  :)
     </div>
 
 
