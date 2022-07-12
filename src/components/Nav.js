@@ -123,14 +123,6 @@ function Nav() {
                   </a>
                 </p>
 
-                <p class="control">
-                  <a class="button is-primary" href="https://github.com/jpaulopereiraaraujo/VendingMachineTokenJP/archive/refs/heads/main.zip">
-                    <span class="icon">
-                      <i class="fas fa-download"></i>
-                    </span>
-                    <span>Baixar Projeto</span>
-                  </a>
-                </p>
               </div>
             </div>
           </div>
