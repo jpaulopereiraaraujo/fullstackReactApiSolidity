@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Faucet from './pages/Faucet'
 import VendingMachine from "./pages/VendingMachine";
 import CryptoNews from "./pages/CryptoNews"
+
 function App() {
     return(
         <Router> 

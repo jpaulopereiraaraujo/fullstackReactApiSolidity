@@ -1,7 +1,5 @@
- import { Link } from 'react-router-dom'
- import { Button } from 'react-bulma-components';
-
-
+import { Link } from 'react-router-dom'
+import { Button } from 'react-bulma-components';
 function Nav() {
   document.addEventListener('DOMContentLoaded', () => {
 
@@ -25,21 +23,30 @@ function Nav() {
 
   });
 
-  
+
+
 
   return (
 
+
     <>
-      <nav class="navbar is-transparent">
+      <nav class="navbar is-transparent is-hidden-mobile">
         <div class="navbar-brand">
           <a href="/">
             <img src="https://techatlast.com/wp-content/uploads/2012/06/web-3.0.png" alt="Bulma: a modern CSS framework based on Flexbox" width="224" height="56"></img>
           </a>
-          <div role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+
+
+
+          <div role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" id="refreshThis">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </div>
+
+
+
+
 
         </div>
 
@@ -51,7 +58,7 @@ function Nav() {
                 Home
               </Button>
             </Link>
-            
+
             <Link to='/vendingmachine' class="navbar-item">
               <Button>
                 VendingMachine
@@ -63,14 +70,14 @@ function Nav() {
                 Faucet
               </Button>
             </Link>
-            
+
             <Link to='/cryptonews' class="navbar-item">
               <Button>
                 CryptoNews
               </Button>
             </Link>
 
-    
+
 
 
 
@@ -103,7 +110,7 @@ function Nav() {
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <a class="button is-link" href="https://www.linkedin.com/in/joao-paulo-pereira-de-ara%C3%BAjo-b24b63231/">
+                  <a class="button is-link" href="https://www.linkedin.com/in/joao-paulo-pereira-de-ara%C3%BAjo-b24b63231/" target="_blank" rel="noreferrer">
                     <span class="icon">
                       <i class="fas fa-download"></i>
                     </span>
@@ -115,7 +122,7 @@ function Nav() {
 
 
                 <p class="control">
-                  <a class="button is-dark has-text-white" href="https://github.com/jpaulopereiraaraujo">
+                  <a class="button is-dark has-text-white" href="https://github.com/jpaulopereiraaraujo" target="_blank" rel="noreferrer">
                     <span class="icon">
                       <i class="fas fa-download"></i>
                     </span>
@@ -127,6 +134,80 @@ function Nav() {
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+      </nav>
+
+      <nav class="navbar is-transparent is-hidden-tablet">
+
+
+        <nav class="breadcrumb is-centered is-mobile" aria-label="breadcrumbs">
+          <ul>
+
+            <Link to='/' class="navbar-item">
+              <Button class="button ">
+                Home
+              </Button>
+            </Link>
+
+            <Link to='/vendingmachine' class="navbar-item">
+              <Button class="button ">
+                VendingMachine
+              </Button>
+            </Link>
+
+            <Link to='/faucet' class="navbar-item">
+              <Button class="button ">
+                Faucet
+              </Button>
+            </Link>
+
+            <Link to='/cryptonews' class="navbar-item">
+              <Button class="button ">
+                CryptoNews
+              </Button>
+            </Link>
+            
+
+            <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <p class="control">
+                  <a class="button is-link" href="https://www.linkedin.com/in/joao-paulo-pereira-de-ara%C3%BAjo-b24b63231/" target="_blank" rel="noreferrer">
+                    <span class="icon">
+                      <i class="fas fa-download"></i>
+                    </span>
+                    <span>Linkedin</span>
+                  </a>
+                </p>
+
+
+
+
+                <p class="control">
+                  <a class="button is-dark has-text-white" href="https://github.com/jpaulopereiraaraujo" target="_blank" rel="noreferrer">
+                    <span class="icon">
+                      <i class="fas fa-download"></i>
+                    </span>
+                    <span>Github</span>
+                  </a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          
+
+
+          </ul>
+        </nav>
+
+
       </nav>
 
 
