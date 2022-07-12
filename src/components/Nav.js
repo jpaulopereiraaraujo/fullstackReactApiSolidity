@@ -148,6 +148,7 @@ function Nav() {
 
         <nav class="breadcrumb is-centered is-mobile" aria-label="breadcrumbs">
           <ul>
+          <div class="field is-grouped">
 
             <Link to='/' class="navbar-item">
               <Button class="button ">
@@ -172,7 +173,7 @@ function Nav() {
                 CryptoNews
               </Button>
             </Link>
-            
+            </div>
 
             <div class="navbar-end">
             <div class="navbar-item">
