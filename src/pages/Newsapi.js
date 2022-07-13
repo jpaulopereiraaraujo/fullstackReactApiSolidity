@@ -2,7 +2,7 @@ import Nav from "../components/Nav";
 import videoBG from '../assets/block.mp4'
 import NewsGeneral from "../components/newsapi-devonly"
 
-function apiNews() {
+function Newsapi() {
 
     return(
         <>
@@ -31,4 +31,4 @@ function apiNews() {
     )
 }
 
-export default apiNews
+export default Newsapi
