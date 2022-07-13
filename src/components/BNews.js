@@ -6,7 +6,6 @@ import axios from 'axios';
 function BNews() {
     const [news, setNews] = useState([]);
 
-
     useEffect(() => {
         const loadNews = async () => {
             const options = {
@@ -52,7 +51,7 @@ function BNews() {
                                 <div class="card">
                                     <div class="card-image">
                                         <figure class="image is-4by3">
-                                            <img src={item.contentUrl} alt="Placeholder"></img>
+                                            <img src={item.image.contentUrl} alt="Placeholder"></img>
                                         </figure>
                                     </div>
                                 </div>
